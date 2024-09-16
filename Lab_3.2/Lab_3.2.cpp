@@ -4,10 +4,14 @@
 // Розгалуження, задане формулою: функція з параметрами. 
 // Варіант 20 
 
+#include <Windows.h>
 #include <iostream> 
 using namespace std;
 int main()
 {
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+
 	double x; // вхідний аргумент 
 	double a; // вхідний параметр 
 	double b; // вхідний параметр 
